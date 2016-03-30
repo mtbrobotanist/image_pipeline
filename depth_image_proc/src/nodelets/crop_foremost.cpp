@@ -36,7 +36,9 @@
 #include <image_transport/image_transport.h>
 #include <boost/thread.hpp>
 #include <cv_bridge/cv_bridge.h>
-#include <opencv2/imgproc/imgproc.hpp>
+#include <sensor_msgs/image_encodings.h>
+#include <opencv2/imgproc/types_c.h>
+#include <opencv2/imgproc.hpp>
 
 namespace depth_image_proc {
 

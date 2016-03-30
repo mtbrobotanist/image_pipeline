@@ -35,6 +35,8 @@
 #include <image_transport/image_transport.h>
 #include <boost/thread.hpp>
 #include <cv_bridge/cv_bridge.h>
+#include <sensor_msgs/image_encodings.h>
+#include <opencv2/imgproc.hpp>
 //#include <algorithm> // for std::max_element
 
 namespace image_proc {
